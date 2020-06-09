@@ -1,7 +1,7 @@
 <template>
   <!-- L'étiopathie -->
-  <div class="container mx-auto flex items-center py-16">
-    <div class="w-1/2">
+  <div class="container mx-auto flex flex-wrap items-center py-16 px-2">
+    <div class="w-full md:w-1/2 mb-8 md:mb-0">
       <h3 class="">L'étiopathie</h3>
       <p>
         L’étiopathie est une nouvelle méthode d’analyse des pathologies. Elle
@@ -48,7 +48,7 @@
         </button>
       </div>
     </div>
-    <div class="w-1/2">
+    <div class="w-full md:w-1/2">
       <img src="/images/etio-graph.svg" class="mx-auto" />
     </div>
   </div>

@@ -9,10 +9,10 @@
 
 body {
   font-family: 'Poppins', sans-serif;
+  @apply text-dark-blue;
 }
 
 p {
-  @apply text-dark-blue;
   @apply mb-2;
   font-size: 14px;
 }

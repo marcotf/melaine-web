@@ -1,14 +1,21 @@
 <template>
-  <div class="container mx-auto py-16">
+  <div class="container mx-auto py-16 px-2">
     <h3>Gallerie</h3>
     <carousel
-      :perPage="5"
+      :perPageCustom="[
+        [1024, 3],
+        [1280, 5]
+      ]"
       :paginationEnabled="false"
-      :navigationEnabled="true"
+      :navigationEnabled="false"
       :scrollPerPage="false"
-      class="-mx-2"
+      :loop="true"
+      :autoplay="true"
+      navigationNextLabel="→"
+      navigationPrevLabel="←"
+      class="-mx-1"
     >
-      <slide class="px-2" v-for="i in 15" :key="i">
+      <slide class="px-1" v-for="i in 15" :key="i">
         <expandable-image src="/images/header-bg.png" />
       </slide>
     </carousel>

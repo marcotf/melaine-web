@@ -8,6 +8,7 @@
     <!-- TODO -->
     <consultation />
     <!-- TODO -->
+    <questions />
     <galery />
     <contact />
     <credit-footer />
@@ -22,6 +23,7 @@ import Etiopathie from '~/components/Etiopathie.vue'
 import HrQuote from '~/components/HrQuote.vue'
 import Cures from '~/components/Cures.vue'
 import Consultation from '~/components/Consultation.vue'
+import Questions from '~/components/Questions.vue'
 import Galery from '~/components/Galery.vue'
 import Contact from '~/components/Contact.vue'
 import CreditFooter from '~/components/CreditFooter.vue'
@@ -36,6 +38,7 @@ export default Vue.extend({
     // TODO
     Consultation,
     // TODO: In between
+    Questions,
     Galery,
     Contact,
     CreditFooter

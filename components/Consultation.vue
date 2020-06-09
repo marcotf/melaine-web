@@ -3,7 +3,7 @@
     <h3>La consultation</h3>
     <div class="flex flex-wrap text-center -mx-2">
       <!-- Acte 1 -->
-      <div class="w-1/4">
+      <div class="w-1/2 md:w-1/4 mb-8 md:mb-0">
         <div class="m-2 py-4 px-8 bg-light-gray shadow rounded relative acte">
           <h4 class="mb-4">Anamnèse</h4>
           <p>
@@ -18,7 +18,7 @@
         </div>
       </div>
       <!-- Acte 2 -->
-      <div class="w-1/4">
+      <div class="w-1/2 md:w-1/4 mb-8 md:mb-0">
         <div class="m-2 py-4 px-8 bg-light-gray shadow rounded relative acte">
           <h4 class="mb-4">Anamnèse</h4>
           <p>
@@ -33,7 +33,7 @@
         </div>
       </div>
       <!-- Acte 3 -->
-      <div class="w-1/4">
+      <div class="w-1/2 md:w-1/4">
         <div class="m-2 py-4 px-8 bg-light-gray shadow rounded relative acte">
           <h4 class="mb-4">Anamnèse</h4>
           <p>
@@ -48,7 +48,7 @@
         </div>
       </div>
       <!-- Acte 4 -->
-      <div class="w-1/4">
+      <div class="w-1/2 md:w-1/4">
         <div class="m-2 py-4 px-8 bg-light-gray shadow rounded relative acte">
           <h4 class="mb-4">Anamnèse</h4>
           <p>

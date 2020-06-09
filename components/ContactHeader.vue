@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-etio">
+  <div class="bg-etio hidden md:block">
     <div class="container mx-auto flex text-sm py-2">
       <div class="pr-4 text-white">06.36.92.43.94</div>
       <div class="pr-4 text-white">

@@ -1,17 +1,17 @@
 <template>
   <div class="header-img">
-    <header class="container mx-auto relative py-8">
+    <header class="container px-2 mx-auto relative py-8">
       <!-- Menu -->
       <div
-        class="flex py-2 px-8 rounded-full bg-white justify-between items-center"
+        class="flex justify-between items-center py-2 px-8 rounded-full bg-white"
       >
         <!-- Logo Name -->
-        <div class="text-etio text-lg font-semibold flex items-center">
+        <div class="flex-1 flex items-center text-etio text-lg font-semibold ">
           <img src="/images/etio-logo.png" class="h-10 mr-2" />
           Mélaine Nieuwjaer
         </div>
         <!-- Menu -->
-        <div>
+        <div class="hidden lg:flex">
           <ul class="flex font-medium text-dark-blue">
             <li>L'étiopathie</li>
             <li class="ml-4">La consultation</li>
