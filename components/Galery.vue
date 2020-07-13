@@ -7,7 +7,7 @@
         [1280, 5]
       ]"
       :paginationEnabled="false"
-      :navigationEnabled="false"
+      :navigationEnabled="true"
       :scrollPerPage="false"
       :loop="true"
       :autoplay="true"
@@ -15,8 +15,8 @@
       navigationPrevLabel="←"
       class="-mx-1"
     >
-      <slide class="px-1" v-for="i in 15" :key="i">
-        <expandable-image src="/images/header-bg.png" />
+      <slide class="px-1" v-for="i in 23" :key="i">
+        <expandable-image :src="`/images/galery/${i}.jpg`" />
       </slide>
     </carousel>
   </div>

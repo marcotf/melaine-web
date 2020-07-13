@@ -40,8 +40,9 @@ export default Vue.extend({})
 
 <style scoped>
 .header-img {
-  background-image: url('/images/header-bg.png');
-  background-position: top;
+  background-image: url('/images/header-bg.jpg');
+  background-position: 50% 35%;
+  background-size: cover;
 }
 header {
   min-height: 530px;
