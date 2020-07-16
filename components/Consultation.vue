@@ -3,12 +3,12 @@
     <h3>La consultation</h3>
     <div class="flex flex-wrap text-center -mx-2">
       <!-- Acte 1 -->
-      <div class="w-full sm:w-1/2 lg:w-1/4 mb-8 lg:mb-0">
+      <div class="w-full h-full sm:w-1/2 lg:w-1/4 mb-8 lg:mb-0">
         <div class="m-2 py-4 px-8 bg-light-gray shadow rounded relative acte">
           <h4 class="mb-4">Anamnèse</h4>
           <p>
             C’est l’écoute et le recueil des symptômes présentés par le patient
-            (trajet douloureux, fourmillement, gène à la mobilisation…)
+            (trajet douloureux, fourmillement, gène à la mobilisation…).
           </p>
           <div
             class="absolute bottom-0 inset-x-0 -mb-8 font-extrabold text-etio text-4xl"
@@ -20,10 +20,11 @@
       <!-- Acte 2 -->
       <div class="w-full sm:w-1/2 lg:w-1/4 mb-8 lg:mb-0">
         <div class="m-2 py-4 px-8 bg-light-gray shadow rounded relative acte">
-          <h4 class="mb-4">Anamnèse</h4>
+          <h4 class="mb-4">Analyse étiopathique</h4>
           <p>
-            C’est l’écoute et le recueil des symptômes présentés par le patient
-            (trajet douloureux, fourmillement, gène à la mobilisation…)
+            C’est l'application de la méthodede raisonnement étiopathique. A
+            partir des symptômes recueillis, l'étiopathe remonte à la cause de
+            la pathologie.
           </p>
           <div
             class="absolute bottom-0 inset-x-0 -mb-8 font-extrabold text-etio text-4xl"
@@ -35,10 +36,11 @@
       <!-- Acte 3 -->
       <div class="w-full sm:w-1/2 lg:w-1/4 mb-8 lg:mb-0">
         <div class="m-2 py-4 px-8 bg-light-gray shadow rounded relative acte">
-          <h4 class="mb-4">Anamnèse</h4>
+          <h4 class="mb-4">Evaluation de l'urgence</h4>
           <p>
-            C’est l’écoute et le recueil des symptômes présentés par le patient
-            (trajet douloureux, fourmillement, gène à la mobilisation…)
+            Dans le cas où la cause ne rentre pas dans le champ d'application de
+            létiopathie, le patient est réorienté vers d'autres soins adaptés à
+            ses besoins.
           </p>
           <div
             class="absolute bottom-0 inset-x-0 -mb-8 font-extrabold text-etio text-4xl"
@@ -50,10 +52,11 @@
       <!-- Acte 4 -->
       <div class="w-full sm:w-1/2 lg:w-1/4 mb-8 lg:mb-0">
         <div class="m-2 py-4 px-8 bg-light-gray shadow rounded relative acte">
-          <h4 class="mb-4">Anamnèse</h4>
+          <h4 class="mb-4">Intervention</h4>
           <p>
-            C’est l’écoute et le recueil des symptômes présentés par le patient
-            (trajet douloureux, fourmillement, gène à la mobilisation…)
+            Le geste thérapeutique constitue en une manipulation précise et
+            ciblée de la cause de la pathologie qui induit la réduction des
+            symptômes.
           </p>
           <div
             class="absolute bottom-0 inset-x-0 -mb-8 font-extrabold text-etio text-4xl"
