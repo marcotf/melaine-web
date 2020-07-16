@@ -17,6 +17,12 @@ p {
   font-size: 14px;
 }
 
+li {
+  font-size: 14px;
+  @apply mx-4;
+  @apply mb-2;
+}
+
 h3 {
   @apply mb-4;
   @apply text-xl;
