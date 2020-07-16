@@ -36,7 +36,7 @@ export default {
    */
   buildModules: [
     '@nuxt/typescript-build',
-    // Doc: https://github.com/nuxt-community/nuxt-tailwindcss
+    '@nuxtjs/fontawesome',
     '@nuxtjs/tailwindcss'
   ],
   /*
@@ -46,6 +46,16 @@ export default {
     // Doc: https://github.com/nuxt-community/dotenv-module
     '@nuxtjs/dotenv'
   ],
+  /*
+   ** FontAwesome icon loading
+   */
+  fontawesome: {
+    icons: {
+      solid: ['faPhoneAlt', 'faAt', 'faMapMarkerAlt', 'faEuroSign'],
+      regular: ['faClock'],
+      brands: ['faFacebookSquare', 'faLinkedin']
+    }
+  },
   /*
    ** Build configuration
    */
