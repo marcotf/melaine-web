@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="container mx-auto py-16 px-2">
+    <div class="container mx-auto pt-16 px-2">
       <h3>Que soigne l'étiopathie ?</h3>
       <div class="flex flex-wrap justify-center">
         <div

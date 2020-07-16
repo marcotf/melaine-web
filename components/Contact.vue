@@ -1,5 +1,5 @@
 <template>
-  <div class="contact">
+  <div id="contact" class="contact">
     <div class="container mx-auto py-16">
       <h3 class="text-white">Contact & RDV</h3>
       <div class="flex text-white">

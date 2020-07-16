@@ -27,7 +27,10 @@ export default {
   /*
    ** Plugins to load before mounting the App
    */
-  plugins: [{ src: '~/plugins/vue-plugins.js', ssr: false }],
+  plugins: [
+    { src: '~/plugins/vue-swiper.js', mode: 'client' },
+    { src: '~/plugins/vue-expandable.js', ssr: false }
+  ],
   /*
    ** Nuxt.js dev-modules
    */
@@ -46,10 +49,5 @@ export default {
   /*
    ** Build configuration
    */
-  build: {
-    /*
-     ** You can extend webpack config here
-     */
-    extend(config, ctx) {}
-  }
+  build: {}
 }

@@ -1,14 +1,20 @@
 <template>
   <div class="container mx-auto py-16 px-2">
     <h3>Gallerie</h3>
-    <agile :options="agileOptions">
-      <div v-for="i in 23" :key="i" class="px-2">
-        <expandable-image :src="`/images/galery/${i}.jpg`" class="shadow" />
-      </div>
-
-      <!-- <template slot="prevButton">prev</template>
-      <template slot="nextButton">next</template> -->
-    </agile>
+    <div>
+      <client-only placeholder="Chargement des images...">
+        <swiper :options="swiperOption">
+          <swiper-slide v-for="i in 23" :key="i" class="">
+            <expandable-image :src="`/images/galery/${i}.jpg`" class="shadow" />
+          </swiper-slide>
+          <!-- <swiper-slide>Slide 1</swiper-slide>
+          <swiper-slide>Slide 2</swiper-slide>
+          <swiper-slide>Slide 3</swiper-slide>
+          <swiper-slide>Slide 4</swiper-slide>
+          <swiper-slide>Slide 5</swiper-slide> -->
+        </swiper>
+      </client-only>
+    </div>
   </div>
 </template>
 
@@ -17,37 +23,30 @@ import Vue from 'vue'
 export default Vue.extend({
   data() {
     return {
-      agileOptions: {
-        autoplay: true,
-        speed: 100,
-        navButtons: true,
+      swiperOption: {
+        spaceBetween: 10,
+        loop: true,
+        initialSlide: 0,
+        autoplay: {
+          delay: 1500,
+          disableOnInteraction: true
+        },
+        speed: 1500,
+        grabCursor: true,
 
-        responsive: [
-          {
-            breakpoint: 640,
-            settings: {
-              slidesToShow: 2
-            }
+        breakpoints: {
+          640: {
+            slidesPerView: 2
           },
-          // {
-          //   breakpoint: 768,
-          //   settings: {
-          //     slidesToShow: 2
-          //   }
-          // },
-          {
-            breakpoint: 1024,
-            settings: {
-              slidesToShow: 3
-            }
+
+          1024: {
+            slidesPerView: 3
           },
-          {
-            breakpoint: 1280,
-            settings: {
-              slidesToShow: 5
-            }
+
+          1280: {
+            slidesPerView: 5
           }
-        ]
+        }
       }
     }
   }

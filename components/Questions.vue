@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-light-gray">
+  <div id="questions" class="bg-light-gray">
     <div class="container mx-auto px-2 py-16">
       <h3>Vos questions</h3>
       <div class="flex flex-wrap -mx-2">

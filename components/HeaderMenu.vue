@@ -13,12 +13,14 @@
         <!-- Menu -->
         <div class="hidden lg:flex">
           <ul class="flex font-medium text-dark-blue">
-            <li>L'étiopathie</li>
-            <li class="ml-4">La consultation</li>
-            <li class="ml-4">Votre étiopathe</li>
-            <li class="ml-4">Questions</li>
-            <li class="ml-4">Contact</li>
-            <li class="ml-4 text-etio">Rendez-vous</li>
+            <li><a href="#etio">L'étiopathie</a></li>
+            <li class="ml-4"><a href="#melaine">Votre étiopathe</a></li>
+            <li class="ml-4"><a href="#consultation">La consultation</a></li>
+            <li class="ml-4"><a href="#questions">Questions</a></li>
+            <li class="ml-4"><a href="#contact">Contact</a></li>
+            <li class="ml-4 text-etio">
+              <a href="mailto:mnieuwjaer.etiopathe@outlook.fr">Rendez-vous</a>
+            </li>
           </ul>
         </div>
       </div>

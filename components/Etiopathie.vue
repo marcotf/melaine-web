@@ -1,6 +1,9 @@
 <template>
   <!-- L'étiopathie -->
-  <div class="container mx-auto flex flex-wrap items-center py-16 px-2">
+  <div
+    id="etio"
+    class="container mx-auto flex flex-wrap items-center py-16 px-2"
+  >
     <div class="w-full md:w-1/2 mb-8 md:mb-0">
       <h3 class="">L'étiopathie</h3>
       <p>

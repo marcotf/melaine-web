@@ -6,6 +6,9 @@
     <hr-quote />
     <cures />
     <!-- TODO -->
+    <div class="divider divider-left h-4"></div>
+    <melaine />
+    <div class="divider divider-right h-4"></div>
     <consultation />
     <!-- TODO -->
     <questions />
@@ -23,6 +26,7 @@ import Etiopathie from '~/components/Etiopathie.vue'
 import HrQuote from '~/components/HrQuote.vue'
 import Cures from '~/components/Cures.vue'
 import Consultation from '~/components/Consultation.vue'
+import Melaine from '~/components/Melaine.vue'
 import Questions from '~/components/Questions.vue'
 import Galery from '~/components/Galery.vue'
 import Contact from '~/components/Contact.vue'
@@ -35,7 +39,7 @@ export default Vue.extend({
     Etiopathie,
     HrQuote,
     Cures,
-    // TODO
+    Melaine,
     Consultation,
     // TODO: In between
     Questions,
@@ -45,3 +49,15 @@ export default Vue.extend({
   }
 })
 </script>
+
+<style scoped>
+.divider {
+  background-color: #f8f8f8;
+}
+.divider-left {
+  clip-path: polygon(100% 0, 0% 100%, 100% 100%);
+}
+.divider-right {
+  clip-path: polygon(0 0, 100% 0, 0 100%);
+}
+</style>
