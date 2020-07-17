@@ -8,7 +8,6 @@
           v-for="cure in cures"
           :key="cure.id"
         >
-          <!-- <img :src="cure.icon" class="h-12 mx-auto cure-icon" /> -->
           <svg
             v-html="cure.icon"
             class="cure-icon mx-auto"

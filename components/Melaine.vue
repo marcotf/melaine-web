@@ -55,7 +55,11 @@
         </div>
         <div class="w-full lg:w-1/2 p-4 relative">
           <div class="relative p-4 z-10">
-            <img src="/images/melaine.jpg" class="shadow" />
+            <img
+              src="/images/melaine.jpg"
+              alt="Mélaine Nieuwjaer"
+              class="shadow"
+            />
           </div>
           <div class="absolute left-0 top-0 red-dot red-dot-small z-0"></div>
           <div

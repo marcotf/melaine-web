@@ -52,7 +52,11 @@
       </div>
     </div>
     <div class="w-full md:w-1/2">
-      <img src="/images/etio-graph.svg" class="mx-auto" />
+      <img
+        src="/images/etio-graph.svg"
+        alt="Trigramme expliquant l'étiopathie"
+        class="mx-auto"
+      />
     </div>
   </div>
 </template>

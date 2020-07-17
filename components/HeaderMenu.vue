@@ -7,7 +7,11 @@
       >
         <!-- Logo Name -->
         <div class="flex-1 flex items-center text-etio text-lg font-semibold ">
-          <img src="/images/etio-logo.png" class="h-10 mr-2" />
+          <img
+            src="/images/etio-logo.png"
+            alt="Logo Etiopathe"
+            class="h-10 mr-2"
+          />
           Mélaine Nieuwjaer
         </div>
         <!-- Menu -->

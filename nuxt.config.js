@@ -4,6 +4,9 @@ export default {
    ** Headers of the page
    */
   head: {
+    htmlAttrs: {
+      lang: 'fr'
+    },
     title: 'Melaine Nieuwjaer - Etiopathe - Dunkerque',
     meta: [
       { charset: 'utf-8' },
@@ -11,7 +14,29 @@ export default {
       {
         hid: 'description',
         name: 'description',
-        content: process.env.npm_package_description || ''
+        content: `L’étiopathie s’attache en priorité à déterminer la cause plutôt que d’en supprimer directement les effets (douleurs, inflammation, blocage etc). Pour l’étiopathie, "seule la suppression de la cause empêchera l’effet de se reproduire".`
+      },
+      { hid: 'og:locale', name: 'og:locale', content: 'fr_FR' },
+      { hid: 'og:type', name: 'og:type', content: 'website' },
+      {
+        hid: 'og:title',
+        name: 'og:title',
+        content: 'Mélaine Nieuwjaer - Etiopathe - Dunkerque'
+      },
+      {
+        hid: 'og:site_name',
+        name: 'og:site_name',
+        content: 'Mélaine Nieuwjaer'
+      },
+      {
+        hid: 'og:description',
+        name: 'og:description',
+        content: `L’étiopathie s’attache en priorité à déterminer la cause plutôt que d’en supprimer directement les effets (douleurs, inflammation, blocage etc). Pour l’étiopathie, "seule la suppression de la cause empêchera l’effet de se reproduire".`
+      },
+      {
+        hid: 'og:url',
+        name: 'og:url',
+        content: 'https://etiopathedunkerque.fr/'
       }
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]

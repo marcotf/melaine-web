@@ -22,7 +22,7 @@ export default {
           postalCode: '59495',
           addressCountry: 'France'
         },
-        openingHours: 'Mo, Tu, We, Th, Fr 08:00-19:00',
+        openingHours: 'Mo, Tu, We, Th, Fr 08:30-19:30 Sa 08:30-12:30',
         contactPoint: {
           '@type': 'ContactPoint',
           telephone: '+33636924394'
