@@ -52,6 +52,16 @@ export default {
         hid: 'twitter:description',
         name: 'twitter:description',
         content: `L’étiopathie s’attache en priorité à déterminer la cause plutôt que d’en supprimer directement les effets (douleurs, inflammation, blocage etc). Pour l’étiopathie, "seule la suppression de la cause empêchera l’effet de se reproduire".`
+      },
+      {
+        hid: 'twitter:image',
+        name: 'twitter:image',
+        content: 'https://melaine-etio-web.herokuapp.com/images/melaine.jpg'
+      },
+      {
+        hid: 'twitter:site',
+        name: 'twitter:site',
+        content: 'https://melaine-etio-web.herokuapp.com/'
       }
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
