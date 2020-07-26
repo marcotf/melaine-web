@@ -79,7 +79,8 @@ export default {
    */
   plugins: [
     { src: '~/plugins/vue-swiper.js', mode: 'client' },
-    { src: '~/plugins/vue-expandable.js', ssr: false }
+    { src: '~/plugins/vue-expandable.js', ssr: false },
+    { src: '~/plugins/vue-burger-menu.js', ssr: false }
   ],
   /*
    ** Nuxt.js dev-modules
@@ -101,7 +102,7 @@ export default {
    */
   fontawesome: {
     icons: {
-      solid: ['faPhoneAlt', 'faAt', 'faMapMarkerAlt', 'faEuroSign'],
+      solid: ['faPhoneAlt', 'faAt', 'faMapMarkerAlt', 'faEuroSign', 'faBars'],
       regular: ['faClock'],
       brands: ['faFacebookSquare', 'faLinkedin']
     }

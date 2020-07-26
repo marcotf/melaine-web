@@ -30,5 +30,5 @@ h3 {
   @apply mb-4;
   @apply text-xl;
   @apply font-semibold;
-  @apply text-dark-blue;
+  @apply text-red-fluo;
 }

@@ -17,6 +17,7 @@
     "nuxt": "^2.0.0",
     "swiper": "^5.4.0",
     "vue-awesome-swiper": "^4.1.1",
+    "vue-burger-menu": "^2.0.5",
     "vue-expandable-image": "^0.1.0"
   },
   "devDependencies": {

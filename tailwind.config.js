@@ -10,11 +10,12 @@ module.exports = {
       colors: {
         etio: '#AE0C31',
         'dark-blue': '#31456A',
-        'light-gray': '#F8F8F8'
+        'light-gray': '#F8F8F8',
+        'red-fluo': '#EC3F3B'
       }
     }
   },
   variants: {},
   plugins: [],
   purge: false
-}
+};
