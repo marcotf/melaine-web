@@ -19,7 +19,7 @@
 </template>
 
 <script lang="ts">
-import Vue from 'vue'
+import Vue from 'vue';
 export default Vue.extend({
   data() {
     return {
@@ -44,11 +44,11 @@ export default Vue.extend({
           },
 
           1280: {
-            slidesPerView: 5
+            slidesPerView: 4
           }
         }
       }
-    }
+    };
   }
-})
+});
 </script>

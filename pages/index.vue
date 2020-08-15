@@ -6,7 +6,7 @@
     <hr-quote />
     <cures />
     <!-- TODO -->
-    <div class="divider divider-left h-4"></div>
+    <div class="divider divider-left h-4 -mt-4"></div>
     <melaine />
     <div class="divider divider-right h-4"></div>
     <consultation />
@@ -19,18 +19,18 @@
 </template>
 
 <script lang="ts">
-import Vue from 'vue'
-import ContactHeader from '~/components/ContactHeader.vue'
-import HeaderMenu from '~/components/HeaderMenu.vue'
-import Etiopathie from '~/components/Etiopathie.vue'
-import HrQuote from '~/components/HrQuote.vue'
-import Cures from '~/components/Cures.vue'
-import Consultation from '~/components/Consultation.vue'
-import Melaine from '~/components/Melaine.vue'
-import Questions from '~/components/Questions.vue'
-import Galery from '~/components/Galery.vue'
-import Contact from '~/components/Contact.vue'
-import CreditFooter from '~/components/CreditFooter.vue'
+import Vue from 'vue';
+import ContactHeader from '~/components/ContactHeader.vue';
+import HeaderMenu from '~/components/HeaderMenu.vue';
+import Etiopathie from '~/components/Etiopathie.vue';
+import HrQuote from '~/components/HrQuote.vue';
+import Cures from '~/components/Cures.vue';
+import Consultation from '~/components/Consultation.vue';
+import Melaine from '~/components/Melaine.vue';
+import Questions from '~/components/Questions.vue';
+import Galery from '~/components/Galery.vue';
+import Contact from '~/components/Contact.vue';
+import CreditFooter from '~/components/CreditFooter.vue';
 
 export default Vue.extend({
   components: {
@@ -47,7 +47,7 @@ export default Vue.extend({
     Contact,
     CreditFooter
   }
-})
+});
 </script>
 
 <style scoped>

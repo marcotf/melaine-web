@@ -32,3 +32,11 @@ h3 {
   @apply font-semibold;
   @apply text-red-fluo;
 }
+
+strong {
+  @apply font-semibold;
+}
+
+.cures {
+  background-image: url('/images/bg-cures.png');
+}

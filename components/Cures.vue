@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="cures">
     <div class="container mx-auto pt-16 px-2">
       <h3>Que soigne l'étiopathie ?</h3>
       <div class="flex flex-wrap justify-center">

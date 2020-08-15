@@ -1,5 +1,11 @@
 export default {
   mode: 'spa',
+  publicRuntimeConfig: {
+    phoneNumber: process.env.PHONE_NUMBER,
+    localisation: process.env.LOCALISATION,
+    email: process.env.EMAIL
+  },
+  privateRuntimeConfig: {},
   /*
    ** Headers of the page
    */
@@ -85,18 +91,11 @@ export default {
   /*
    ** Nuxt.js dev-modules
    */
-  buildModules: [
-    '@nuxt/typescript-build',
-    '@nuxtjs/fontawesome',
-    '@nuxtjs/tailwindcss'
-  ],
+  buildModules: ['@nuxtjs/dotenv', '@nuxt/typescript-build', '@nuxtjs/fontawesome', '@nuxtjs/tailwindcss'],
   /*
    ** Nuxt.js modules
    */
-  modules: [
-    // Doc: https://github.com/nuxt-community/dotenv-module
-    '@nuxtjs/dotenv'
-  ],
+  modules: [],
   /*
    ** FontAwesome icon loading
    */
@@ -111,4 +110,4 @@ export default {
    ** Build configuration
    */
   build: {}
-}
+};

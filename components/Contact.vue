@@ -7,45 +7,40 @@
           <h4 class="font-medium text-lg mb-2">Contact</h4>
           <ul>
             <li>
-              <font-awesome-icon class="mr-1" :icon="['fas', 'phone-alt']" /> <a href="tel:+33636924394">06.36.92.43.94</a>
+              <font-awesome-icon class="mr-1" :icon="['fas', 'phone-alt']" />
+              <a :href="`tel:+33${formatedPhone(phoneNumber)}`">{{ phoneNumber }}</a>
+            </li>
+            <li><font-awesome-icon class="mr-1" :icon="['fas', 'map-marker-alt']" /> {{ localisation }}</li>
+            <li>
+              <font-awesome-icon class="mr-1" :icon="['fas', 'at']" />
+              <a :href="`mailto:${email}`">{{ email }}</a>
             </li>
             <li>
-              <font-awesome-icon class="mr-1" :icon="['fas', 'map-marker-alt']" /> 874 rue
-              Sainte Catherine, 59495 LEFFRINCKOUCKE
-            </li>
-            <li>
-              <font-awesome-icon class="mr-1" :icon="['fas', 'at']" /> 
-              <a href="mailto:mnieuwjaer.etiopathe@outlook.fr">mnieuwjaer.etiopathe@outlook.fr</a>
-            </li>
-            <li>
-              <font-awesome-icon
-                class="mr-1"
-                :icon="['fab', 'facebook-square']"
-              />
+              <font-awesome-icon class="mr-1" :icon="['fab', 'facebook-square']" />
               Facebook
             </li>
             <li>
               <font-awesome-icon class="mr-1" :icon="['fab', 'linkedin']" />
-              Linked’in
+              <a href="https://www.linkedin.com/in/mélaine-nieuwjaer-7694921a9/" target="_blank">Linked’in</a>
             </li>
           </ul>
         </div>
         <div class="w-full sm:w-1/2">
           <h4 class="font-medium text-lg mb-2">Rendez-vous</h4>
-          <p>
+          <div class="text-sm">
             <font-awesome-icon class="mr-1" :icon="['far', 'clock']" /> Horaires:
             <ul class="ml-4 list-disc">
-              <li>Lundi à Vendredi - 8h30 à 19h30</li>
-              <li>Samedi - 8h30 à 12h30</li>
+              <li>Lundi à Vendredi - 8h00 à 19h30</li>
+              <li>Samedi - 8h00 à 12h30</li>
             </ul>
-          </p>
-          <p>
+          </div>
+          <div class="text-sm">
             <font-awesome-icon class="mr-1" :icon="['fas', 'euro-sign']" /> Tarif de la consultation:
             <ul class="ml-4 list-disc">
               <li>50€ sur place</li>
-              <li>55€ à domicile</li>
+              <li>60€ à domicile</li>
             </ul>
-          </p>  
+          </div>
         </div>
       </div>
     </div>
@@ -53,8 +48,29 @@
 </template>
 
 <script lang="ts">
-import Vue from 'vue'
-export default Vue.extend({})
+import Vue from 'vue';
+
+interface User {
+  phoneNumber: string;
+}
+
+export default Vue.extend({
+  data({ $config: { phoneNumber, localisation, email } }: any) {
+    return {
+      phoneNumber,
+      localisation,
+      email
+    };
+  },
+
+  methods: {
+    formatedPhone: (phone: string): string =>
+      phone
+        .substr(1)
+        .split('.')
+        .join('')
+  }
+});
 </script>
 
 <style scoped>
