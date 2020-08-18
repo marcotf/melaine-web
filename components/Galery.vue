@@ -4,14 +4,9 @@
     <div>
       <client-only placeholder="Chargement des images...">
         <swiper :options="swiperOption">
-          <swiper-slide v-for="i in 18" :key="i" class="">
+          <swiper-slide v-for="i in 18" :key="i" class>
             <expandable-image :src="`/images/galery/${i}.jpeg`" class="shadow" />
           </swiper-slide>
-          <!-- <swiper-slide>Slide 1</swiper-slide>
-          <swiper-slide>Slide 2</swiper-slide>
-          <swiper-slide>Slide 3</swiper-slide>
-          <swiper-slide>Slide 4</swiper-slide>
-          <swiper-slide>Slide 5</swiper-slide> -->
         </swiper>
       </client-only>
     </div>
