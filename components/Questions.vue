@@ -4,15 +4,8 @@
       <h3>Vos questions</h3>
       <div class="flex flex-wrap -mx-2">
         <div class="w-full lg:w-1/2 px-2">
-          <div
-            v-for="question in first_questions"
-            :key="question.id"
-            class="mb-2"
-          >
-            <div
-              class="flex bg-white cursor-pointer p-4"
-              @click="activate(question.id)"
-            >
+          <div v-for="question in first_questions" :key="question.id" class="mb-2">
+            <div class="flex bg-white cursor-pointer p-4" @click="activate(question.id)">
               <div class="activate" v-if="!show_answer(question.id)">+</div>
               <div class="activate" v-else>-</div>
               <div class="ml-2 font-medium">{{ question.message }}</div>
@@ -27,11 +20,7 @@
           </div>
         </div>
         <div class="w-full lg:w-1/2 px-2">
-          <div
-            v-for="question in last_questions"
-            :key="question.id"
-            class="mb-2"
-          >
+          <div v-for="question in last_questions" :key="question.id" class="mb-2">
             <div class="flex bg-white p-4" @click="activate(question.id)">
               <div class="activate" v-if="!show_answer(question.id)">+</div>
               <div class="activate" v-else>-</div>
@@ -51,10 +40,10 @@
   </div>
 </template>
 
-<script lang="ts">
-import Vue from 'vue'
-export default Vue.extend({
-  data({ $config: { price, homePrice } }: any) {
+<script >
+// import Vue from 'vue'
+module.exports = {
+  data({ $config: { price, homePrice } }) {
     return {
       show_id: 0,
       first_questions: [
@@ -84,8 +73,7 @@ export default Vue.extend({
         },
         {
           id: 5,
-          message:
-            'Quelles sont les différences avec d’autres professions de santé et thérapies manuelles ?',
+          message: 'Quelles sont les différences avec d’autres professions de santé et thérapies manuelles ?',
           answer: `
               <ul class="list-disc">
                 <li>Le fondement de la pratique étiopathique réside dans sa méthode d’analyse.</li>
@@ -114,16 +102,14 @@ export default Vue.extend({
         },
         {
           id: 7,
-          message:
-            'Faut il consulter son médecin avant de se rendre chez son étiopathe ?',
+          message: 'Faut il consulter son médecin avant de se rendre chez son étiopathe ?',
           answer:
             '<p>Une prescription médicale n’est pas nécessaire pour se rendre chez son étiopathe. Le patient peut donc s’y rendre à sa propre initiative.</p>'
         },
         {
           id: 8,
           message: 'Tarif et moyen de paiement ?',
-          answer:
-            `<p>Le tarif de la consultation est de ${price}€ (${homePrice}€ à domicile) , dont TVA 20 %</p>`
+          answer: `<p>Le tarif de la consultation est de ${price}€ (${homePrice}€ à domicile) , dont TVA 20 %</p>`
         },
         {
           id: 9,
@@ -132,20 +118,20 @@ export default Vue.extend({
             '<p>Les étiopathes reconnues sont recensés dans le <strong>Registre national des étiopathes (RNE)</strong>. L’étiopathie est une thérapie non conventionnée. Comme toute autres alternatives de soins, elle n’est pas remboursée par la sécurité sociale. Aujourd’hui, voyant l’efficacité de l’étiopathie de nombreuses mutuelles remboursent totalement ou en partie les consultations.</p>'
         }
       ]
-    }
+    };
   },
 
   methods: {
-    show_answer(id: number): boolean {
-      return this.show_id == id
+    show_answer(id) {
+      return this.show_id == id;
     },
 
-    activate(id: number) {
-      if (this.show_id == id) this.show_id = 0
-      else this.show_id = id
+    activate(id) {
+      if (this.show_id == id) this.show_id = 0;
+      else this.show_id = id;
     }
   }
-})
+};
 </script>
 
 <style scoped>
