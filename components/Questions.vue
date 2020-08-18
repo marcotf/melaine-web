@@ -54,7 +54,7 @@
 <script lang="ts">
 import Vue from 'vue'
 export default Vue.extend({
-  data() {
+  data({ $config: { price, homePrice } }: any) {
     return {
       show_id: 0,
       first_questions: [
@@ -123,7 +123,7 @@ export default Vue.extend({
           id: 8,
           message: 'Tarif et moyen de paiement ?',
           answer:
-            '<p>Le tarif de la consultation est de 50€ (56 €à domicile) , dont TVA 20 %</p>'
+            `<p>Le tarif de la consultation est de ${price}€ (${homePrice}€ à domicile) , dont TVA 20 %</p>`
         },
         {
           id: 9,
@@ -136,7 +136,7 @@ export default Vue.extend({
   },
 
   methods: {
-    show_answer(id: number) {
+    show_answer(id: number): boolean {
       return this.show_id == id
     },
 

@@ -3,7 +3,9 @@ export default {
   publicRuntimeConfig: {
     phoneNumber: process.env.PHONE_NUMBER,
     localisation: process.env.LOCALISATION,
-    email: process.env.EMAIL
+    email: process.env.EMAIL,
+    price: process.env.PRICE || 50,
+    homePrice: process.env.HOME_PRICE || 60
   },
   privateRuntimeConfig: {},
   /*
