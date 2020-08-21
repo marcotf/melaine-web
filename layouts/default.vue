@@ -12,9 +12,9 @@ export default {
         '@context': 'http://www.schema.org',
         '@type': 'LocalBusiness',
         name: 'Mélaine Nieuwjaer',
-        image: 'https://melaine-etio-web.herokuapp.com/images/melaine.jpg',
+        image: 'https://etiopathedunkerque.fr/images/melaine.jpg',
         telephone: '+33636924394',
-        url: 'https://melaine-etio-web.herokuapp.com',
+        url: 'https://etiopathedunkerque.fr/',
         address: {
           '@type': 'PostalAddress',
           streetAddress: '874 rue Sainte Catherine',
@@ -28,13 +28,13 @@ export default {
           telephone: '+33636924394'
         }
       }
-    }
+    };
   },
 
   head() {
     return {
       script: [{ type: 'application/ld+json', json: this.structuredData }]
-    }
+    };
   }
-}
+};
 </script>

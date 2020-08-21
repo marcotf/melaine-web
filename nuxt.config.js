@@ -64,12 +64,12 @@ export default {
       {
         hid: 'twitter:image',
         name: 'twitter:image',
-        content: 'https://melaine-etio-web.herokuapp.com/images/melaine.jpg'
+        content: 'https://etiopathedunkerque.fr/images/melaine.jpg'
       },
       {
         hid: 'twitter:site',
         name: 'twitter:site',
-        content: 'https://melaine-etio-web.herokuapp.com/'
+        content: 'https://etiopathedunkerque.fr/'
       }
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
