@@ -23,27 +23,27 @@
     </filter>
   </defs>
   <g id="Graph" transform="translate(-1159 -621)">
-    <g id="COG" transform="matrix(0.966, 0.259, -0.259, 0.966, 1284.612, 708.907)" fill="none" stroke="#31456a" stroke-width="5" stroke-dasharray="5 5">
+    <g id="COG" transform="matrix(0.966, 0.259, -0.259, 0.966, 1284.612, 708.907)" fill="none" stroke="#ec3f3b" stroke-width="5" stroke-dasharray="5 5">
       <circle cx="125" cy="125" r="125" stroke="none"/>
       <circle cx="125" cy="125" r="122.5" fill="none"/>
     </g>
     <g transform="matrix(1, 0, 0, 1, 1159, 621)" filter="url(#Ellipse_1)">
-      <circle id="Ellipse_1-2" data-name="Ellipse 1" cx="80" cy="80" r="80" transform="translate(9 256)" fill="#ec3f3b"/>
+      <circle id="Ellipse_1-2" data-name="Ellipse 1" cx="80" cy="80" r="80" transform="translate(9 256)" fill="#31456a"/>
     </g>
     <g transform="matrix(1, 0, 0, 1, 1159, 621)" filter="url(#Ellipse_2)">
-      <circle id="Ellipse_2-2" data-name="Ellipse 2" cx="80" cy="80" r="80" transform="translate(259 256)" fill="#ec3f3b"/>
+      <circle id="Ellipse_2-2" data-name="Ellipse 2" cx="80" cy="80" r="80" transform="translate(259 256)" fill="#31456a"/>
     </g>
     <g transform="matrix(1, 0, 0, 1, 1159, 621)" filter="url(#Ellipse_3)">
-      <circle id="Ellipse_3-2" data-name="Ellipse 3" cx="80" cy="80" r="80" transform="translate(134 6)" fill="#ec3f3b"/>
+      <circle id="Ellipse_3-2" data-name="Ellipse 3" cx="80" cy="80" r="80" transform="translate(134 6)" fill="#31456a"/>
     </g>
     <text id="GESTE_THÉRAPEUTIQUE_MANUEL" data-name="GESTE
 THÉRAPEUTIQUE
-MANUEL" transform="translate(1248 947)" fill="#fff" font-size="14" font-family="Poppins-Medium, Poppins Medium" font-weight="500"><tspan x="-20.44" y="0">GESTE</tspan><tspan x="-52.997" y="15">THÉRAPEUTIQUE</tspan><tspan x="-27.251" y="30">MANUEL</tspan></text>
+MANUEL" transform="translate(1248 947)" fill="#fff" font-size="14" font-weight="500"><tspan x="-20.44" y="0">GESTE</tspan><tspan x="-52.997" y="15">THÉRAPEUTIQUE</tspan><tspan x="-27.251" y="30">MANUEL</tspan></text>
     <text id="MÉTHODE_DE_RAISONNEMENT_ÉTIOPATHIQUE" data-name="MÉTHODE DE
 RAISONNEMENT
-ÉTIOPATHIQUE" transform="translate(1373 697)" fill="#fff" font-size="14" font-family="Poppins-Medium, Poppins Medium" font-weight="500"><tspan x="-42.826" y="0">MÉTHODE DE</tspan><tspan x="-52.255" y="15">RAISONNEMENT</tspan><tspan x="-47.803" y="30">ÉTIOPATHIQUE</tspan></text>
+ÉTIOPATHIQUE" transform="translate(1373 697)" fill="#fff" font-size="14" font-weight="500"><tspan x="-42.826" y="0">MÉTHODE DE</tspan><tspan x="-52.255" y="15">RAISONNEMENT</tspan><tspan x="-47.803" y="30">ÉTIOPATHIQUE</tspan></text>
     <text id="CONNAISSANCE_SYSTÉMIQUE_RIGOUREUSE" data-name="CONNAISSANCE
 SYSTÉMIQUE
-RIGOUREUSE" transform="translate(1498 947)" fill="#fff" font-size="14" font-family="Poppins-Medium, Poppins Medium" font-weight="500"><tspan x="-54.082" y="0">CONNAISSANCE</tspan><tspan x="-41.475" y="15">SYSTÉMIQUE</tspan><tspan x="-41.727" y="30">RIGOUREUSE</tspan></text>
+RIGOUREUSE" transform="translate(1498 947)" fill="#fff" font-size="14" font-weight="500"><tspan x="-54.082" y="0">CONNAISSANCE</tspan><tspan x="-41.475" y="15">SYSTÉMIQUE</tspan><tspan x="-41.727" y="30">RIGOUREUSE</tspan></text>
   </g>
 </svg>
