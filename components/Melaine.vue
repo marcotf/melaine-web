@@ -6,9 +6,7 @@
         <div class="w-full lg:w-1/2 p-4">
           <div>
             <h4 class="mb-2 font-medium text-red-fluo">Qui suis je ?</h4>
-            <p>
-              Je m’appelle Mélaine Nieuwjaer, je suis originaire de Dunkerque.
-            </p>
+            <p>Mélaine Nieuwjaer, je suis originaire de Dunkerque.</p>
             <p>
               J’ai choisi la profession d’étiopathe pour plusieurs raisons: sa méthode de raisonnement rigoureuse et
               avant-gardiste de la pathologie ; le contact et le relationnel que je retrouve au cours de chaque
@@ -23,15 +21,25 @@
 
           <div>
             <h4 class="mb-2 font-medium text-red-fluo">Ma formation ?</h4>
-            <p>J’ai obtenu mon diplôme à la <strong>faculté libre d’étiopathie de Paris</strong>.</p>
             <p>
-              L’enseignement repose sur la <strong>compréhension de la méthode d’analyse étiopathique</strong>. Elle
-              comprend également <strong>l’étude rigoureuse</strong> de l’<strong>anatomie</strong> (en particulier
-              durant les cours de dissection) , de la <strong>physiologie</strong>, de la <strong>clinique</strong> , et
-              de la <strong>technique manipulative mécaniste</strong>.
+              J’ai obtenu mon diplôme à la
+              <strong>faculté libre d’étiopathie de Paris</strong>.
             </p>
             <p>
-              Le cursus comprend <strong>6 années d’études</strong>. Nous effectuons de
+              L’enseignement repose sur la
+              <strong>compréhension de la méthode d’analyse étiopathique</strong>. Elle
+              comprend également
+              <strong>l’étude rigoureuse</strong> de l’
+              <strong>anatomie</strong> (en particulier
+              durant les cours de dissection) , de la
+              <strong>physiologie</strong>, de la
+              <strong>clinique</strong> , et
+              de la
+              <strong>technique manipulative mécaniste</strong>.
+            </p>
+            <p>
+              Le cursus comprend
+              <strong>6 années d’études</strong>. Nous effectuons de
               <strong>nombreux stages d’observations et de pratiques</strong>
               dans les cabinets et à la clinique d’étiopathie de Paris.
             </p>
