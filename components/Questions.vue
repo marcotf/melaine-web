@@ -115,7 +115,7 @@ module.exports = {
           id: 9,
           message: 'Reconnaissance et remboursement ?',
           answer:
-            '<p>Les étiopathes reconnues sont recensés dans le <strong>Registre national des étiopathes (RNE)</strong>. L’étiopathie est une thérapie non conventionnée. Comme toute autres alternatives de soins, elle n’est pas remboursée par la sécurité sociale. Aujourd’hui, voyant l’efficacité de l’étiopathie de nombreuses mutuelles remboursent totalement ou en partie les consultations.</p>'
+            '<p>Les étiopathes reconnues sont recensés dans le <strong>Registre national des étiopathes (RNE)</strong>. L’étiopathie est une thérapie non conventionnée. Comme toute autres alternatives de soins, elle n’est pas remboursée par la sécurité sociale. Aujourd’hui, voyant l’efficacité de l’étiopathie de nombreuses mutuelles remboursent totalement ou en partie les consultations.</p><p class="text-center uppercase"><a href="https://www.etiopathie.com/etiopathie/mutuelles-prises-charge-old" target="_blank">Liste des mutuelles prises en charge</a></p>'
         }
       ]
     };
