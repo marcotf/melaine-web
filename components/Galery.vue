@@ -5,7 +5,12 @@
       <client-only placeholder="Chargement des images...">
         <swiper :options="swiperOption">
           <swiper-slide v-for="i in 18" :key="i" class>
-            <expandable-image :src="`/images/galery/${i}.jpeg`" class="shadow" />
+            <!-- TODO: Describe each images -->
+            <expandable-image
+              :src="`/images/galery/${i}.jpeg`"
+              :alt="`Gallery Image Numéro ${i}`"
+              class="shadow"
+            />
           </swiper-slide>
         </swiper>
       </client-only>
