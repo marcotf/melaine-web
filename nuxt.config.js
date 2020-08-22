@@ -47,6 +47,11 @@ export default {
         content: 'https://etiopathedunkerque.fr/'
       },
       {
+        hid: 'og:image',
+        name: 'og:image',
+        content: 'https://etiopathedunkerque.fr/images/melaine.jpg'
+      },
+      {
         hid: 'twitter:title',
         name: 'twitter:title',
         content: 'Mélaine Nieuwjaer - Etiopathe - Dunkerque'
