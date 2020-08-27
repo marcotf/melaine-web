@@ -8,14 +8,20 @@
             <h4 class="mb-2 font-medium text-red-fluo">Qui suis je ?</h4>
             <p>Mélaine Nieuwjaer, je suis originaire de Dunkerque.</p>
             <p>
-              J’ai choisi la profession d’étiopathe pour plusieurs raisons: sa méthode de raisonnement rigoureuse et
-              avant-gardiste de la pathologie ; le contact et le relationnel que je retrouve au cours de chaque
-              consultation; enfin, l’envie et le plaisir de pouvoir soulager les douleurs de mes patients. L’étiopathie
+              J’ai choisi la profession d’étiopathe pour plusieurs raisons:
+              <strong>sa méthode de raisonnement rigoureuse</strong> et
+              avant-gardiste de la pathologie ;
+              <strong>le contact et le relationnel</strong> que je retrouve au cours de chaque
+              consultation; enfin, l’envie et le plaisir de pouvoir
+              <strong>soulager les douleurs de mes patients</strong>. L’étiopathie
               est pour moi plus qu’un métier, une véritable passion !
             </p>
             <p>
-              En tant que praticienne je suis à l’écoute et disponible. Je lie dans ma pratique technique, précision,
-              douceur et dynamisme ! Je m’adapte à chaque patient suivant leur morphologie et leur pathologie.
+              En tant que praticienne je suis à l’écoute et disponible. Je lie dans ma pratique technique,
+              <strong>
+                précision,
+                douceur et dynamisme
+              </strong> ! Je m’adapte à chaque patient suivant leur morphologie et leur pathologie.
             </p>
           </div>
 
@@ -48,7 +54,7 @@
               médecins, chirurgiens, biologistes, physiologistes…
             </p>
             <p>
-              Enfin, j’ai pu bénéficié de stages en milieu hospitalier afin d’élargir mes connaissances des autres
+              Enfin, j’ai pu bénéficier de stages en milieu hospitalier afin d’élargir mes connaissances des autres
               professions de santé.
             </p>
           </div>
