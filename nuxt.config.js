@@ -5,7 +5,10 @@ export default {
     localisation: process.env.LOCALISATION,
     email: process.env.EMAIL,
     price: process.env.PRICE || 50,
-    homePrice: process.env.HOME_PRICE || 60
+    homePrice: process.env.HOME_PRICE || 60,
+    googleAnalytics: {
+      id: process.env.GOOGLE_ANALYTICS_ID
+    }
   },
   privateRuntimeConfig: {},
   /*
@@ -98,7 +101,13 @@ export default {
   /*
    ** Nuxt.js dev-modules
    */
-  buildModules: ['@nuxtjs/dotenv', '@nuxt/typescript-build', '@nuxtjs/fontawesome', '@nuxtjs/tailwindcss'],
+  buildModules: [
+    '@nuxtjs/dotenv',
+    '@nuxt/typescript-build',
+    '@nuxtjs/fontawesome',
+    '@nuxtjs/tailwindcss',
+    '@nuxtjs/google-analytics'
+  ],
   /*
    ** Nuxt.js modules
    */
