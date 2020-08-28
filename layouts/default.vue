@@ -35,5 +35,15 @@ export default {
   //     script: [{ type: 'application/ld+json', json: this.structuredData }]
   //   };
   // }
+  head() {
+    return {
+      link: [
+        {
+          rel: 'canonical',
+          href: 'https://etiopathedunkerque.fr' + this.$route.path
+        }
+      ]
+    };
+  }
 };
 </script>
