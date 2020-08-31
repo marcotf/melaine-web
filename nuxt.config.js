@@ -111,7 +111,7 @@ export default {
   /*
    ** Nuxt.js modules
    */
-  modules: [],
+  modules: ['@nuxtjs/robots', '@nuxtjs/sitemap'],
   /*
    ** FontAwesome icon loading
    */
@@ -121,6 +121,20 @@ export default {
       regular: ['faClock'],
       brands: ['faFacebookSquare', 'faLinkedin']
     }
+  },
+  /*
+   ** Robot.txt setup
+   */
+  robots: {
+    UserAgent: '*',
+    Disallow: '',
+    Sitemap: 'https://etiopathedunkerque.fr/sitemap.xml'
+  },
+  /*
+   ** Sitemap.xml setup
+   */
+  sitemap: {
+    hostname: 'https://etiopathedunkerque.fr'
   },
   /*
    ** Build configuration

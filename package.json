@@ -13,6 +13,8 @@
   "dependencies": {
     "@fortawesome/free-regular-svg-icons": "^5.14.0",
     "@nuxt/typescript-runtime": "^0.4.0",
+    "@nuxtjs/robots": "^2.4.2",
+    "@nuxtjs/sitemap": "^2.4.0",
     "nuxt": "^2.14.0",
     "swiper": "^5.4.0",
     "vue-awesome-swiper": "^4.1.1",
