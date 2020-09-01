@@ -6,37 +6,35 @@
 
 <script>
 export default {
-  // data() {
-  //   return {
-  //     structuredData: {
-  //       '@context': 'http://www.schema.org',
-  //       '@type': 'LocalBusiness',
-  //       name: 'Mélaine Nieuwjaer',
-  //       image: 'https://etiopathedunkerque.fr/images/melaine.jpg',
-  //       telephone: '+33636924394',
-  //       url: 'https://etiopathedunkerque.fr/',
-  //       address: {
-  //         '@type': 'PostalAddress',
-  //         streetAddress: '874 rue Sainte Catherine',
-  //         addressLocality: 'LEFFRINCKOUCKE',
-  //         postalCode: '59495',
-  //         addressCountry: 'France'
-  //       },
-  //       openingHours: 'Mo, Tu, We, Th, Fr 08:00-19:30 Sa 08:00-12:30',
-  //       contactPoint: {
-  //         '@type': 'ContactPoint',
-  //         telephone: '+33636924394'
-  //       }
-  //     }
-  //   };
-  // },
-  // head() {
-  //   return {
-  //     script: [{ type: 'application/ld+json', json: this.structuredData }]
-  //   };
-  // }
+  data({ $config: { phoneNumber, localisation, email } }) {
+    return {
+      structuredData: {
+        '@context': 'http://www.schema.org',
+        '@type': 'LocalBusiness',
+        name: 'Mélaine Nieuwjaer',
+        image: 'https://etiopathedunkerque.fr/images/melaine.jpg',
+        telephone: this.formatedPhone(phoneNumber),
+        url: 'https://etiopathedunkerque.fr/',
+        address: {
+          '@type': 'PostalAddress',
+          streetAddress: this.formatedAddress(localisation)[0],
+          postalCode: this.formatedAddress(localisation)[1],
+          addressLocality: this.formatedAddress(localisation)[2],
+          addressCountry: 'France'
+        },
+        openingHours: 'Mo, Tu, We, Th, Fr 08:00-19:30 Sa 08:00-12:30',
+        contactPoint: {
+          '@type': 'ContactPoint',
+          telephone: this.formatedPhone(phoneNumber),
+          email: email
+        }
+      }
+    };
+  },
+
   head() {
     return {
+      script: [{ type: 'application/ld+json', json: this.structuredData }],
       link: [
         {
           rel: 'canonical',
@@ -44,6 +42,17 @@ export default {
         }
       ]
     };
+  },
+
+  methods: {
+    formatedPhone: phone =>
+      '+33' +
+      phone
+        .substr(1)
+        .split('.')
+        .join(''),
+
+    formatedAddress: address => address.split(',').map(elem => elem.trim())
   }
 };
 </script>
