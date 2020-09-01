@@ -27,32 +27,32 @@ export default {
         name: 'description',
         content: `L’étiopathie s’attache en priorité à déterminer la cause plutôt que d’en supprimer directement les effets (douleurs, inflammation, blocage etc). Pour l’étiopathie, "seule la suppression de la cause empêchera l’effet de se reproduire".`
       },
-      { hid: 'og:locale', name: 'og:locale', content: 'fr_FR' },
-      { hid: 'og:type', name: 'og:type', content: 'website' },
+      {
+        hid: 'og:image',
+        property: 'og:image',
+        content: 'https://etiopathedunkerque.fr/images/melaine.jpg'
+      },
+      { hid: 'og:locale', property: 'og:locale', content: 'fr_FR' },
+      { hid: 'og:type', property: 'og:type', content: 'website' },
       {
         hid: 'og:title',
-        name: 'og:title',
+        property: 'og:title',
         content: 'Mélaine Nieuwjaer - Etiopathe - Dunkerque'
       },
       {
         hid: 'og:site_name',
-        name: 'og:site_name',
+        property: 'og:site_name',
         content: 'Mélaine Nieuwjaer'
       },
       {
         hid: 'og:description',
-        name: 'og:description',
+        property: 'og:description',
         content: `L’étiopathie s’attache en priorité à déterminer la cause plutôt que d’en supprimer directement les effets (douleurs, inflammation, blocage etc). Pour l’étiopathie, "seule la suppression de la cause empêchera l’effet de se reproduire".`
       },
       {
         hid: 'og:url',
-        name: 'og:url',
+        property: 'og:url',
         content: 'https://etiopathedunkerque.fr/'
-      },
-      {
-        hid: 'og:image',
-        name: 'og:image',
-        content: 'https://etiopathedunkerque.fr/images/melaine.jpg'
       },
       {
         hid: 'twitter:title',
