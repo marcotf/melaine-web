@@ -99,6 +99,10 @@ export default {
     { src: '~/plugins/vue-burger-menu.js', ssr: false }
   ],
   /*
+   ** Server middleware
+   */
+  serverMiddleware: ['~/middleware/format_url'],
+  /*
    ** Nuxt.js dev-modules
    */
   buildModules: [
