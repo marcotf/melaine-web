@@ -1,11 +1,13 @@
 export default {
   mode: 'spa',
   publicRuntimeConfig: {
+    baseURL: process.env.BASE_URL,
     phoneNumber: process.env.PHONE_NUMBER,
     localisation: process.env.LOCALISATION,
     email: process.env.EMAIL,
     price: process.env.PRICE || 50,
     homePrice: process.env.HOME_PRICE || 60,
+    googleSiteVerification: process.env.GOOGLE_SITE_VERIFICATION || null,
     googleAnalytics: {
       id: process.env.GOOGLE_ANALYTICS_ID
     }
@@ -15,9 +17,7 @@ export default {
    ** Headers of the page
    */
   head: {
-    htmlAttrs: {
-      lang: 'fr'
-    },
+    htmlAttrs: { lang: 'fr' },
     title: 'Melaine Nieuwjaer - Etiopathe - Dunkerque',
     meta: [
       { charset: 'utf-8' },
@@ -26,11 +26,6 @@ export default {
         hid: 'description',
         name: 'description',
         content: `L’étiopathie s’attache en priorité à déterminer la cause plutôt que d’en supprimer directement les effets (douleurs, inflammation, blocage etc).`
-      },
-      {
-        hid: 'og:image',
-        property: 'og:image',
-        content: 'https://etiopathedunkerque.fr/images/melaine.jpg'
       },
       { hid: 'og:locale', property: 'og:locale', content: 'fr_FR' },
       { hid: 'og:type', property: 'og:type', content: 'website' },
@@ -50,11 +45,6 @@ export default {
         content: `L’étiopathie s’attache en priorité à déterminer la cause plutôt que d’en supprimer directement les effets (douleurs, inflammation, blocage etc).`
       },
       {
-        hid: 'og:url',
-        property: 'og:url',
-        content: 'https://etiopathedunkerque.fr/'
-      },
-      {
         hid: 'twitter:title',
         name: 'twitter:title',
         content: 'Mélaine Nieuwjaer - Etiopathe - Dunkerque'
@@ -68,16 +58,6 @@ export default {
         hid: 'twitter:description',
         name: 'twitter:description',
         content: `L’étiopathie s’attache en priorité à déterminer la cause plutôt que d’en supprimer directement les effets (douleurs, inflammation, blocage etc).`
-      },
-      {
-        hid: 'twitter:image',
-        name: 'twitter:image',
-        content: 'https://etiopathedunkerque.fr/images/melaine.jpg'
-      },
-      {
-        hid: 'twitter:site',
-        name: 'twitter:site',
-        content: 'https://etiopathedunkerque.fr/'
       }
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]

@@ -6,15 +6,41 @@
 
 <script>
 export default {
-  data({ $config: { phoneNumber, localisation, email } }) {
+  data({ $config: { baseURL, phoneNumber, localisation, email, googleSiteVerification } }) {
+    let meta = [
+      {
+        hid: 'og:image',
+        property: 'og:image',
+        content: baseURL + '/images/melaine.jpg'
+      },
+      {
+        hid: 'og:url',
+        property: 'og:url',
+        content: baseURL + '/'
+      },
+      {
+        hid: 'twitter:image',
+        name: 'twitter:image',
+        content: baseURL + '/images/melaine.jpg'
+      },
+      {
+        hid: 'twitter:site',
+        name: 'twitter:site',
+        content: baseURL + '/'
+      }
+    ];
+
+    if (googleSiteVerification)
+      meta.push({ hid: 'google-site-verification', name: 'google-site-verification', content: googleSiteVerification });
+
     return {
       structuredData: {
         '@context': 'http://www.schema.org',
         '@type': 'LocalBusiness',
         name: 'Mélaine Nieuwjaer',
-        image: 'https://etiopathedunkerque.fr/images/melaine.jpg',
+        image: baseURL + '/images/melaine.jpg',
         telephone: this.formatedPhone(phoneNumber),
-        url: 'https://etiopathedunkerque.fr/',
+        url: baseURL + '/',
         address: {
           '@type': 'PostalAddress',
           streetAddress: this.formatedAddress(localisation)[0],
@@ -28,7 +54,8 @@ export default {
           telephone: this.formatedPhone(phoneNumber),
           email: email
         }
-      }
+      },
+      meta
     };
   },
 
@@ -40,7 +67,8 @@ export default {
           rel: 'canonical',
           href: 'https://etiopathedunkerque.fr' + this.$route.path
         }
-      ]
+      ],
+      meta: this.meta
     };
   },
 
