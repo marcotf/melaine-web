@@ -4,8 +4,6 @@ FROM node:14-alpine
 WORKDIR /usr/src/app
 
 # set app serving to permissive / assigned and app port
-ENV NUXT_HOST 0.0.0.0
-ENV NUXT_PORT 3000
 ENV HOST 0.0.0.0
 ENV PORT 3000
 
