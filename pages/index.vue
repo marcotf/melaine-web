@@ -1,5 +1,10 @@
 <template>
   <div>
+    <back-to-top bottom="0.5rem" right="0.5rem">
+      <button class="h-12 w-12 bg-gray-100 rounded flex items-center shadow focus:outline-none hover:bg-gray-200">
+        <font-awesome-icon class="mx-auto" :icon="['fas', 'chevron-up']" />
+      </button>
+    </back-to-top>
     <contact-header />
     <header-menu />
     <etiopathie />
@@ -32,7 +37,7 @@ import Galery from '~/components/Galery.vue';
 import Contact from '~/components/Contact.vue';
 import CreditFooter from '~/components/CreditFooter.vue';
 
-export default Vue.extend({
+export default {
   components: {
     ContactHeader,
     HeaderMenu,
@@ -47,7 +52,7 @@ export default Vue.extend({
     Contact,
     CreditFooter
   }
-});
+};
 </script>
 
 <style scoped>
