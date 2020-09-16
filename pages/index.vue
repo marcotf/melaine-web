@@ -3,7 +3,7 @@
     <contact-header />
     <header-menu />
     <etiopathie />
-    <hr-quote />
+    <!-- <hr-quote / -->
     <cures />
     <!-- TODO -->
     <div class="divider divider-left h-4 -mt-4"></div>
