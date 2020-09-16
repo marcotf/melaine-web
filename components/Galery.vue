@@ -1,16 +1,12 @@
 <template>
   <div class="container mx-auto py-16 px-2">
-    <h3>Gallerie</h3>
+    <h3>Galerie</h3>
     <div>
       <client-only placeholder="Chargement des images...">
         <swiper :options="swiperOption">
           <swiper-slide v-for="i in 18" :key="i" class>
             <!-- TODO: Describe each images -->
-            <expandable-image
-              :src="`/images/galery/${i}.jpeg`"
-              :alt="`Gallery Image Numéro ${i}`"
-              class="shadow"
-            />
+            <expandable-image :src="`/images/galery/${i}.jpeg`" :alt="`Gallery Image Numéro ${i}`" class="shadow" />
           </swiper-slide>
         </swiper>
       </client-only>

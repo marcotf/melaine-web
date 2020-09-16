@@ -1,24 +1,24 @@
 FROM node:14-alpine
 
 # create destination directory
-RUN mkdir -p /usr/src/nuxt-app
-WORKDIR /usr/src/nuxt-app
+WORKDIR /usr/src/app
 
-# update and install dependency
-RUN apk update && apk upgrade
-RUN apk add git
+# set app serving to permissive / assigned and app port
+ENV NUXT_HOST 0.0.0.0
+ENV NUXT_PORT 3000
+ENV HOST 0.0.0.0
+ENV PORT 3000
 
 # copy the app, note .dockerignore
-COPY . /usr/src/nuxt-app/
+COPY package*.json ./
 RUN npm install
+
+# copy the app, note .dockerignore
+COPY . .
 
 # build necessary, even if no static files are needed,
 # since it builds the server as well
 RUN npm run build
 
-# set app serving to permissive / assigned and app port
-ENV NUXT_HOST=0.0.0.0
-ENV NUXT_PORT=3000
-
 # start the app
-CMD [ "npm", "start" ]
+CMD npm start
