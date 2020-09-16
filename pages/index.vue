@@ -1,10 +1,5 @@
 <template>
-  <div>
-    <back-to-top bottom="0.5rem" right="0.5rem">
-      <button class="h-12 w-12 bg-gray-100 rounded flex items-center shadow focus:outline-none hover:bg-gray-200">
-        <font-awesome-icon class="mx-auto" :icon="['fas', 'chevron-up']" />
-      </button>
-    </back-to-top>
+  <div class="relative">
     <contact-header />
     <header-menu />
     <etiopathie />
@@ -20,7 +15,7 @@
     <galery />
     <contact />
     <credit-footer />
-    <back-to-top class="fixed right-0 bottom-0 mb-2 mr-2" bottom="0.5rem" right="0.5rem">
+    <back-to-top bottom="0.5rem" right="0.5rem">
       <button class="h-12 w-12 bg-gray-100 rounded flex items-center shadow focus:outline-none hover:bg-gray-200">
         <font-awesome-icon class="mx-auto" :icon="['fas', 'chevron-up']" />
       </button>
