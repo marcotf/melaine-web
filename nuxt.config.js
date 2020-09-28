@@ -1,5 +1,5 @@
 export default {
-  mode: 'spa',
+  ssr: false,
   publicRuntimeConfig: {
     baseURL: process.env.BASE_URL,
     phoneNumber: process.env.PHONE_NUMBER,
@@ -74,9 +74,10 @@ export default {
    ** Plugins to load before mounting the App
    */
   plugins: [
-    { src: '~/plugins/vue-swiper.js', mode: 'client' },
+    { src: '~/plugins/vue-swiper.js', sst: false },
     { src: '~/plugins/vue-expandable.js', ssr: false },
-    { src: '~/plugins/vue-burger-menu.js', ssr: false }
+    { src: '~/plugins/vue-burger-menu.js', ssr: false },
+    { src: '~/plugins/vue-backtotop.js', ssr: false }
   ],
   /*
    ** Server middleware
@@ -101,7 +102,7 @@ export default {
    */
   fontawesome: {
     icons: {
-      solid: ['faPhoneAlt', 'faAt', 'faMapMarkerAlt', 'faEuroSign', 'faBars'],
+      solid: ['faPhoneAlt', 'faAt', 'faMapMarkerAlt', 'faEuroSign', 'faBars', 'faChevronUp'],
       regular: ['faClock'],
       brands: ['faFacebookSquare', 'faLinkedin']
     }

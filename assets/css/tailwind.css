@@ -39,4 +39,6 @@ strong {
 
 .cures {
   background-image: url('/images/bg-cures.png');
+  background-size: cover;
+  background-position: center;
 }

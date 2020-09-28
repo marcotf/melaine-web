@@ -1,9 +1,9 @@
 <template>
-  <div>
+  <div class="relative">
     <contact-header />
     <header-menu />
     <etiopathie />
-    <hr-quote />
+    <!-- <hr-quote / -->
     <cures />
     <!-- TODO -->
     <div class="divider divider-left h-4 -mt-4"></div>
@@ -15,6 +15,11 @@
     <galery />
     <contact />
     <credit-footer />
+    <back-to-top class="fixed right-0 bottom-0 mb-2 mr-2" bottom="0.5rem" right="0.5rem">
+      <button class="h-12 w-12 bg-gray-100 rounded flex items-center shadow focus:outline-none hover:bg-gray-200">
+        <font-awesome-icon class="mx-auto" :icon="['fas', 'chevron-up']" />
+      </button>
+    </back-to-top>
   </div>
 </template>
 
@@ -32,7 +37,7 @@ import Galery from '~/components/Galery.vue';
 import Contact from '~/components/Contact.vue';
 import CreditFooter from '~/components/CreditFooter.vue';
 
-export default Vue.extend({
+export default {
   components: {
     ContactHeader,
     HeaderMenu,
@@ -47,7 +52,7 @@ export default Vue.extend({
     Contact,
     CreditFooter
   }
-});
+};
 </script>
 
 <style scoped>
