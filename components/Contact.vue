@@ -16,12 +16,16 @@
               <a :href="`mailto:${email}`">{{ email }}</a>
             </li>
             <li>
-              <font-awesome-icon class="mr-1" :icon="['fab', 'facebook-square']" />
-              Facebook
-            </li>
-            <li>
               <font-awesome-icon class="mr-1" :icon="['fab', 'linkedin']" />
               <a href="https://www.linkedin.com/in/mélaine-nieuwjaer-7694921a9/" target="_blank">Linked’in</a>
+            </li>
+            <li>
+              <font-awesome-icon class="mr-1" :icon="['fab', 'facebook-square']" />
+              <a href="https://www.facebook.com/etiopathe.Arcades.Dunkerque" target="_blank">Facebook</a>
+            </li>
+            <li>
+              <font-awesome-icon class="mr-1" :icon="['fab', 'instagram']" />
+              <a href="https://www.instagram.com/etiopathe_dunkerque_arcades/" target="_blank">Instagram</a>
             </li>
           </ul>
         </div>
@@ -37,8 +41,8 @@
           <div class="text-sm">
             <font-awesome-icon class="mr-1" :icon="['fas', 'euro-sign']" /> Tarif de la consultation:
             <ul class="ml-4 list-disc">
-              <li>{{price}}€ sur place</li>
-              <li>{{homePrice}}€ à domicile</li>
+              <li>{{ price }}€ sur place</li>
+              <li>{{ homePrice }}€ à domicile</li>
             </ul>
           </div>
         </div>
