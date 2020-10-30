@@ -104,7 +104,7 @@ export default {
     icons: {
       solid: ['faPhoneAlt', 'faAt', 'faMapMarkerAlt', 'faEuroSign', 'faBars', 'faChevronUp'],
       regular: ['faClock'],
-      brands: ['faFacebookSquare', 'faLinkedin']
+      brands: ['faFacebookSquare', 'faLinkedin', 'faInstagram']
     }
   },
   /*
