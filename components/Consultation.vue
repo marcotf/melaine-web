@@ -18,7 +18,7 @@
         <div class="w-full mt-8 py-4 px-8 bg-light-gray shadow rounded relative acte">
           <h4 class="mb-4">Analyse étiopathique</h4>
           <p>
-            C’est l'application de la méthodede raisonnement étiopathique. A partir des symptômes recueillis,
+            C’est l'application de la méthode de raisonnement étiopathique. A partir des symptômes recueillis,
             l'étiopathe remonte à la cause de la pathologie.
           </p>
           <div class="absolute top-0 inset-x-0 -mt-8 font-extrabold text-etio text-4xl">
@@ -29,7 +29,7 @@
         <div class="w-full mt-8 py-4 px-8 bg-light-gray shadow rounded relative acte">
           <h4 class="mb-4">Evaluation de l'urgence</h4>
           <p>
-            Dans le cas où la cause ne rentre pas dans le champ d'application de létiopathie, le patient est réorienté
+            Dans le cas où la cause ne rentre pas dans le champ d'application de l'étiopathie, le patient est réorienté
             vers d'autres soins adaptés à ses besoins.
           </p>
           <div class="absolute top-0 inset-x-0 -mt-8 font-extrabold text-etio text-4xl">

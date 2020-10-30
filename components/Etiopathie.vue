@@ -32,9 +32,9 @@
 
       <p>
         Le corps humain est visualisé comme
-        <strong>un ensemble de système</strong> ( gynécologie, ORL, gastro- entérologie, cardiologie, neurologie…) mis
-        en relation les uns avec les autres. Ainsi, l’étiopathie recherche
-        <strong>les liens de causes à effets</strong>&nbsp; qui déterminent le système à l’origine de vos symptômes.
+        <strong>un ensemble de système</strong> (gynécologie, ORL, gastro-entérologie, cardiologie, neurologie…) mis en
+        relation les uns avec les autres. Ainsi, l’étiopathie recherche
+        <strong>les liens de causes à effets</strong> qui déterminent le système à l’origine de vos symptômes.
       </p>
 
       <p>
