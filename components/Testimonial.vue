@@ -32,19 +32,19 @@ export default {
       testimonials: [
         {
           text:
-            'En tant que cycliste averti, mon changement de vélo m’a amené des douleurs cervicales que seule Melaine a su analyser et trouver la solution.  Aujourd’hui, je suis pleinement dans la pratique de mon sport ! Pour tous les sportifs, je vous la recommande !',
+            "En tant que cycliste averti, j'ai développé des douleurs cervicales que seule Mélaine a su analyser et trouver la solution. Aujourd’hui, je suis pleinement dans la pratique de mon sport ! Pour tous les sportifs, je vous la recommande !",
           author: 'Thomas',
           age: '54 ans'
         },
         {
           text:
-            "Mélaine est une praticienne disponible et à l'écoute. Les manipulations sont efficaces, douces et précises. Mon problème de dos a vite été soulagé, un bonheur !! Je recommande à 100%",
+            "Mélaine est une praticienne disponible et à l'écoute. Les manipulations sont efficaces, douces et précises. Mon problème de dos a vite été soulagé, un bonheur !! Je recommande à 100% !",
           author: 'Joséphine',
           age: '26 ans'
         },
         {
           text:
-            "J'ai eu la chance d'être reçu par Mélaine un jour ou je souffrais énormément...Mélaine est très attentive et à l'écoute, lors de chaque séance. Elle est sure de ses gestes et explique clairement ses manipulations. Elle se veut très confiante et rassurante. C'est avec un grand plaisir que je poursuis mes séances avec elle",
+            "J'ai eu la chance d'être reçu par Mélaine un jour ou je souffrais énormément... Mélaine est très attentive et à l'écoute lors de chaque séance. Elle est sure de ses gestes et explique clairement ses manipulations. Elle se veut très confiante et rassurante. C'est avec un grand plaisir que je poursuis mes séances avec elle.",
           author: 'Fabienne',
           age: '47 ans'
         }
