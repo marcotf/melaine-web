@@ -27,12 +27,11 @@
 export default {
   data() {
     return {
-      //   random: 2,
       random: Math.floor(Math.random() * 3),
       testimonials: [
         {
           text:
-            "En tant que cycliste averti, j'ai développé des douleurs cervicales que seule Mélaine a su analyser et trouver la solution. Aujourd’hui, je suis pleinement dans la pratique de mon sport ! Pour tous les sportifs, je vous la recommande !",
+            "En tant que cycliste averti, j'ai développé des douleurs cervicales que seule Mélaine a pu soulager. Aujourd’hui, je suis pleinement dans la pratique de mon sport ! Pour tous les sportifs, je vous la recommande !",
           author: 'Thomas',
           age: '54 ans'
         },
