@@ -2,47 +2,50 @@
   <!-- L'étiopathie -->
   <div id="etio" class="container mx-auto flex flex-wrap items-center py-16 px-2">
     <div class="w-full md:w-1/2 mb-8 md:mb-0">
-      <h3 class>L'étiopathie</h3>
-      <p>
-        L’étiopathie est une nouvelle
-        <strong
-          >méthode d’analyse qui permet de réagir, rapidement et efficacement, devant de nombreuses pathologies du
-          quotidien</strong
-        >. Elle correspond au fondement de notre pratique.
-      </p>
-      <p>
-        Du grec
-        <strong>aïtia</strong> "cause" et <strong>pathos</strong> "souffrance", l’étiopathie s’attache en priorité à
-        déterminer la cause plutôt que d’en supprimer directement les effets (douleurs, inflammation, blocage etc). Pour
-        l’étiopathie, " <strong>seule la suppression de la cause empêchera l’effet de se reproduire</strong>".
-      </p>
-      <p>
-        <strong
-          >L’application de la méthode étiopathique permet de raisonner de façon logique et rationnel, à partir des
-          symptômes que vous présentez.</strong
-        >.
-      </p>
-      <!-- <p>Elle permet de réagir rapidement et de façon efficace devant la pathologie.</p> -->
+      <h3>Qu’est-ce que l’étiopathie ?</h3>
 
       <p>
-        <strong>Comme support de raisonnement</strong>, votre étiopathe s’appuie sur
-        <strong>l’étude systémique appliquée au corps humain</strong> suivant les
-        <strong>connaissances anatomiques, physiologiques et cliniques rigoureuses</strong>.
+        Du nourrisson au sénior, de la femme enceinte au sportif amateur ou professionnel, l’étiopathie soigne
+        efficacement et sans médicaments, de nombreuses pathologies de votre quotidien : troubles articulaires ou
+        digestifs, circulatoires ou respiratoires, gynécologiques ou généraux.
       </p>
 
       <p>
-        Le corps humain est visualisé comme
-        <strong>un ensemble de système</strong> (gynécologie, ORL, gastro-entérologie, cardiologie, neurologie…) mis en
-        relation les uns avec les autres. Ainsi, l’étiopathie recherche
-        <strong>les liens de causes à effets</strong> qui déterminent le système à l’origine de vos symptômes.
+        Du grec aïtia "<strong>cause</strong>" et pathos "<strong>souffrance</strong>", l’étiopathie est avant tout une
+        méthode d’analyse qui s’attache en priorité à cibler la cause plutôt que d’en supprimer directement les effets
+        (douleurs, inflammation, blocage etc).
       </p>
 
       <p>
-        En tant que
-        <strong>thérapie manuelle</strong> et purement <strong>mécaniste</strong>, votre étiopathe utilise des
-        <strong>manipulations ciblées, douces, précises</strong>, sans avoir recours aux médicaments ou autres
-        instruments.
+        L’application de la méthode étiopathique permet d’établir un raisonnement
+        <strong>logique et rationnel, à partir des symptômes que vous présentez.</strong>
       </p>
+
+      <p>
+        Comme support d’analyse, je m’appuie sur
+        <strong>
+          l’étude systémique appliquée au corps humain, suivant mes connaissances anatomiques, physiologiques et
+          cliniques.
+        </strong>
+      </p>
+
+      <p>
+        <strong>Je visualise le corps humain comme un ensemble de système</strong> (gynécologie, ORL,
+        gastro-entérologie, cardiologie, neurologie…) mis en relation les uns avec les autres. Ainsi, je recherche les
+        liens de causes à effets qui déterminent le système à l’origine de vos symptômes.
+      </p>
+
+      <p>
+        <strong>En tant que thérapie manuelle et purement mécaniste</strong>, j’utilise des
+        <stong>manipulations ciblées, douces, précises</stong>, lorsque la cause de vos douleurs et de vos symptômes
+        appartient au champ d’application de l’étiopathie.
+      </p>
+
+      <p>
+        Dans le cas contraire, j’ai été formée pour vous réorienter vers un spécialiste ou un service d’urgence.
+        <strong>Mes limites sont donc celles de l’urgence médicale et chirurgicale.</strong>
+      </p>
+
       <div class="text-center mt-4">
         <a href="http://www.etiopathie.com" target="_blank" class="bg-dark-blue text-white px-4 py-2 rounded-full"
           >SITE OFFICIEL DE L’ETIOPATHIE</a

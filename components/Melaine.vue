@@ -6,56 +6,38 @@
         <div class="w-full lg:w-1/2 p-4">
           <div>
             <h4 class="mb-2 font-medium text-red-fluo">Qui suis je ?</h4>
-            <p>Mélaine Nieuwjaer, je suis originaire de Dunkerque.</p>
             <p>
-              J’ai choisi la profession d’étiopathe pour plusieurs raisons:
-              <strong>sa méthode de raisonnement rigoureuse</strong> et
-              avant-gardiste de la pathologie ;
-              <strong>le contact et le relationnel</strong> que je retrouve au cours de chaque
-              consultation; enfin, l’envie et le plaisir de pouvoir
-              <strong>soulager les douleurs de mes patients</strong>. L’étiopathie
-              est pour moi plus qu’un métier, une véritable passion !
+              Mélaine Nieuwjaer, étiopathe. Soucieuse du bien être des autres, j’ai l’envie et le plaisir de pouvoir
+              vous aider.
             </p>
             <p>
-              En tant que praticienne je suis à l’écoute et disponible. Je lie dans ma pratique technique,
-              <strong>
-                précision,
-                douceur et dynamisme
-              </strong> ! Je m’adapte à chaque patient suivant leur morphologie et leur pathologie.
+              Du nourrisson au sénior, de la femme enceinte au sportif, je m’adapte à vous, suivant votre pathologie. Je
+              suis à l’écoute et disponible. J’aime le contact relationnel, que je retrouve au cours de chacune de mes
+              consultations. Je lie dans ma pratique technique, précision, douceur et dynamisme !
+            </p>
+            <p>
+              L’étiopathie est pour moi une évidence. Elle nourrit à la fois, mon intérêt pour la recherche des liens de
+              cause à effet, qui me permettent de cibler l’origine de vos douleurs, tout en me permettant de soigner de
+              façon naturelle. L’étiopathie est plus qu’un métier, c’est une véritable passion !
+            </p>
+            <p>
+              Je vous accueil avec le sourire et la bonne humeur dans mon cabinet aux Arcades à Dunkerque !
             </p>
           </div>
 
           <div>
             <h4 class="mb-2 font-medium text-red-fluo">Ma formation ?</h4>
             <p>
-              J’ai obtenu mon diplôme à la
-              <strong>faculté libre d’étiopathie de Paris</strong>.
+              J’ai obtenu mon diplôme à la <strong>faculté libre d’étiopathie de Paris</strong> après 6 années d’études.
+              J’ai été formée par des étiopathes reconnus du registre national des étiopathes (RNE), des médecins,
+              chirurgiens, biologistes, physiologistes…
             </p>
             <p>
-              L’enseignement repose sur la
-              <strong>compréhension de la méthode d’analyse étiopathique</strong>. Elle
-              comprend également
-              <strong>l’étude rigoureuse</strong> de l’
-              <strong>anatomie</strong> (en particulier
-              durant les cours de dissection) , de la
-              <strong>physiologie</strong>, de la
-              <strong>clinique</strong> , et
-              de la
-              <strong>technique manipulative mécaniste</strong>.
+              J’ai exercé à la clinique d’étiopathie de Paris et en cabinet libéral.
             </p>
             <p>
-              Le cursus comprend
-              <strong>6 années d’études</strong>. Nous effectuons de
-              <strong>nombreux stages d’observations et de pratiques</strong>
-              dans les cabinets et à la clinique d’étiopathie de Paris.
-            </p>
-            <p>
-              L’enseignement est transmis par des étiopathes reconnus du registre national des étiopathes (RNE), de
-              médecins, chirurgiens, biologistes, physiologistes…
-            </p>
-            <p>
-              Enfin, j’ai pu bénéficier de stages en milieu hospitalier afin d’élargir mes connaissances des autres
-              professions de santé.
+              J’ai également travaillé en milieu hospitalier afin d’élargir mes connaissances des autres professions de
+              santé.
             </p>
           </div>
         </div>
