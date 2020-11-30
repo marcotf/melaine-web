@@ -6,20 +6,20 @@
 
       <p>
         Du nourrisson au sénior, de la femme enceinte au sportif amateur ou professionnel, l’étiopathie soigne
-        efficacement et sans médicaments, de nombreuses pathologies de votre quotidien : troubles articulaires ou
-        digestifs, circulatoires ou respiratoires, gynécologiques ou généraux.
+        efficacement et sans médicaments, de nombreuses pathologies de votre quotidien : troubles musculo-squelettiques
+        ou digestifs, circulatoires ou respiratoires, gynécologiques ou généraux.
       </p>
 
       <p>
         Du grec aïtia "<strong>cause</strong>" et pathos "<strong>souffrance</strong>", l’étiopathie est avant tout une
-        méthode d’analyse qui s’attache en priorité à cibler la cause plutôt que d’en supprimer directement les effets
-        (douleurs, inflammation, blocage etc).
+        méthode d’analyse <strong>qui s’attache en priorité à cibler la cause</strong>, plutôt que d’en supprimer
+        directement les effets (douleurs, inflammation, blocage etc) que vous présentez.
       </p>
 
-      <p>
+      <!-- <p>
         L’application de la méthode étiopathique permet d’établir un raisonnement
         <strong>logique et rationnel, à partir des symptômes que vous présentez.</strong>
-      </p>
+      </p> -->
 
       <p>
         Comme support d’analyse, je m’appuie sur
@@ -38,12 +38,8 @@
       <p>
         <strong>En tant que thérapie manuelle et purement mécaniste</strong>, j’utilise des
         <stong>manipulations ciblées, douces, précises</stong>, lorsque la cause de vos douleurs et de vos symptômes
-        appartient au champ d’application de l’étiopathie.
-      </p>
-
-      <p>
-        Dans le cas contraire, j’ai été formée pour vous réorienter vers un spécialiste ou un service d’urgence.
-        <strong>Mes limites sont donc celles de l’urgence médicale et chirurgicale.</strong>
+        appartient au champ d’application de l’étiopathie. Mes limites sont donc celles de l’urgence médicale et
+        chirurgicale.
       </p>
 
       <div class="text-center mt-4">

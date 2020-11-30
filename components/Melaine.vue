@@ -28,16 +28,20 @@
           <div>
             <h4 class="mb-2 font-medium text-red-fluo">Ma formation ?</h4>
             <p>
-              J’ai obtenu mon diplôme à la <strong>faculté libre d’étiopathie de Paris</strong> après 6 années d’études.
-              J’ai été formée par des étiopathes reconnus du registre national des étiopathes (RNE), des médecins,
-              chirurgiens, biologistes, physiologistes…
+              Je suis étiopathe, diplômée de la faculté Libre d’étiopathie de Paris sous le n°<strong>20-1016</strong>,
+              après 6 années d’études.
             </p>
             <p>
-              J’ai exercé à la clinique d’étiopathie de Paris et en cabinet libéral.
+              J’ai été formée par des médecins urgentistes, chirurgien, anatomiste et physiologiste, et étiopathes
+              membre du registre national des étiopathes (RNE).
             </p>
             <p>
-              J’ai également travaillé en milieu hospitalier afin d’élargir mes connaissances des autres professions de
-              santé.
+              J’ai bénéficié de stages en milieu hospitalier et des cours de dissection à la faculté de médecine Paris
+              Descartes.
+            </p>
+            <p>
+              J’ai exercé à la clinique d’étiopathie de Paris et effectué plusieurs remplacements en cabinet libéral ou
+              j'effectue encore de nombreux remplacements.
             </p>
           </div>
         </div>
