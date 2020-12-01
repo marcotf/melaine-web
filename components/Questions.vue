@@ -11,11 +11,7 @@
               <div class="ml-2 font-medium">{{ question.message }}</div>
             </div>
             <transition name="fade">
-              <div
-                v-if="show_answer(question.id)"
-                class="bg-white px-4 pb-4"
-                v-html="question.answer"
-              />
+              <div v-if="show_answer(question.id)" class="bg-white px-4 pb-4" v-html="question.answer" />
             </transition>
           </div>
         </div>
@@ -27,11 +23,7 @@
               <div class="ml-2 font-medium">{{ question.message }}</div>
             </div>
             <transition name="fade">
-              <div
-                v-if="show_answer(question.id)"
-                class="bg-white px-4 pb-4"
-                v-html="question.answer"
-              />
+              <div v-if="show_answer(question.id)" class="bg-white px-4 pb-4" v-html="question.answer" />
             </transition>
           </div>
         </div>
@@ -40,7 +32,7 @@
   </div>
 </template>
 
-<script >
+<script>
 // import Vue from 'vue'
 module.exports = {
   data({ $config: { price, homePrice } }) {
@@ -100,12 +92,12 @@ module.exports = {
               </ul>
             `
         },
-        {
-          id: 7,
-          message: 'Faut il consulter son médecin avant de se rendre chez son étiopathe ?',
-          answer:
-            '<p>Une prescription médicale n’est pas nécessaire pour se rendre chez son étiopathe. Le patient peut donc s’y rendre à sa propre initiative.</p>'
-        },
+        // {
+        //   id: 7,
+        //   message: 'Faut il consulter son médecin avant de se rendre chez son étiopathe ?',
+        //   answer:
+        //     '<p>Une prescription médicale n’est pas nécessaire pour se rendre chez son étiopathe. Le patient peut donc s’y rendre à sa propre initiative.</p>'
+        // },
         {
           id: 8,
           message: 'Tarif et moyen de paiement ?',
