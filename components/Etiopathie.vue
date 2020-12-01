@@ -13,7 +13,7 @@
       <p>
         Du grec aïtia "<strong>cause</strong>" et pathos "<strong>souffrance</strong>", l’étiopathie est avant tout une
         méthode d’analyse <strong>qui s’attache en priorité à cibler la cause</strong>, plutôt que d’en supprimer
-        directement les effets (douleurs, inflammation, blocage etc) que vous présentez.
+        directement les effets (douleurs, inflammation, contracture etc) que vous présentez.
       </p>
 
       <!-- <p>
