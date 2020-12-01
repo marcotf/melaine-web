@@ -42,7 +42,7 @@
             <font-awesome-icon class="mr-1" :icon="['fas', 'euro-sign']" /> Tarif de la consultation:
             <ul class="ml-4 list-disc">
               <li>{{ price }}€ sur place</li>
-              <li>{{ homePrice }}€ à domicile</li>
+              <!-- <li>{{ homePrice }}€ à domicile</li> -->
             </ul>
           </div>
         </div>
