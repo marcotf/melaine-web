@@ -16,8 +16,8 @@
               consultations. Je lie dans ma pratique technique, précision, douceur et dynamisme !
             </p>
             <p>
-              L’étiopathie est pour moi une évidence. Elle nourrit à la fois, mon intérêt pour la recherche des liens de
-              cause à effet, qui me permettent de cibler l’origine de vos douleurs, tout en me permettant de soigner de
+              L’étiopathie est pour moi une évidence. Elle nourrit à la fois mon intérêt pour la recherche des liens de
+              cause à effet afin de soulager l’origine mécanique de vos douleurs, tout en me permettant de soigner de
               façon naturelle. L’étiopathie est plus qu’un métier, c’est une véritable passion !
             </p>
             <p>
