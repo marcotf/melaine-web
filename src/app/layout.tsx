@@ -9,6 +9,7 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://etioapthedunkerque.fr/"),
   title: "Melaine Nieuwjaer - Etiopathe - Dunkerque",
   description:
     "L’étiopathie s’attache en priorité à déterminer la cause plutôt que d’en supprimer directement les effets (douleurs, inflammation, blocage etc).",
