@@ -9,19 +9,19 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://etioapthedunkerque.fr/"),
+  metadataBase: new URL("https://www.etiopathedunkerque.fr/"),
   title: "Melaine Nieuwjaer - Etiopathe - Dunkerque",
   description:
     "L’étiopathie s’attache en priorité à déterminer la cause plutôt que d’en supprimer directement les effets (douleurs, inflammation, blocage etc).",
   openGraph: {
-    url: "https://etiopathedunkerque.fr",
+    url: "https://www.etiopathedunkerque.fr",
     images: ["/images/melaine.jpg"],
     type: "website",
     siteName: "Mélaine Nieuwjaer",
     locale: "fr_FR",
   },
   twitter: {
-    site: "https://etiopathedunkerque.fr",
+    site: "https://www.etiopathedunkerque.fr",
     images: ["/images/melaine.jpg"],
     card: "summary",
   },
@@ -33,7 +33,7 @@ const structuredData = {
   "@type": "LocalBusiness",
   name: "Mélaine Nieuwjaer",
   telephone: "+33777149098",
-  url: "https://etiopathedunkerque.fr/",
+  url: "https://www.etiopathedunkerque.fr/",
   address: {
     "@type": "PostalAddress",
     streetAddress: "574 avenue du stade",
