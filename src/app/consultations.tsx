@@ -1,3 +1,6 @@
+import { AspectRatio } from "@/components/ui/aspect-ratio";
+import Image from "next/image";
+
 const consultations = [
   {
     name: "Anamnèse",
@@ -44,7 +47,14 @@ export const Consultations = () => {
           ))}
         </div>
         <div className="hidden lg:block w-1/2 p-8">
-          <img src="/images/bureau.jpg" alt="consultation" className="shadow" />
+          <AspectRatio ratio={16 / 10}>
+            <Image
+              src="/images/bureau.jpg"
+              alt="consultation"
+              className="shadow"
+              fill={true}
+            />
+          </AspectRatio>
         </div>
       </div>
     </section>

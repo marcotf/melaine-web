@@ -46,7 +46,7 @@ export const HeaderMenu = () => {
                 <Link href="#contact">Contact</Link>
               </li>
               <li className="ml-4 text-primary">
-                <Link href="mailto:mnieuwjaer.etiopathe@outlook.fr">
+                <Link href="mailto:mnieuwjaer.etiopathe@gmail.com">
                   Rendez-vous
                 </Link>
               </li>
@@ -82,7 +82,7 @@ export const HeaderMenu = () => {
                       <SheetTrigger asChild>
                         <Link
                           className="text-primary"
-                          href="mailto:mnieuwjaer.etiopathe@outlook.fr"
+                          href="mailto:mnieuwjaer.etiopathe@gmail.com"
                         >
                           Rendez-vous
                         </Link>
